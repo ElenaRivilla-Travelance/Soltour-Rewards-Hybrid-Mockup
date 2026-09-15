@@ -1,0 +1,40 @@
+{
+  "storage": {
+    "npointUrl": "https://api.npoint.io/d0b8bc21c50fd9b92678"
+  },
+  "config": {
+    "partnerName": "Travelance",
+    "primaryColor": "#0F6E6A",
+    "secondaryColor": "#0B5652",
+    "footerColor": "#123832",
+    "logo": "",
+    "footerLogo": "",
+    "banner": "",
+    "loginBg": ""
+  },
+  "user": {
+    "displayName": "Elena Rivilla",
+    "agencyStatus": "AGENCIAS PENDIENTE...",
+    "welcomeName": "Elena",
+    "profile": {
+      "firstName": "Elena",
+      "lastName1": "Rivilla",
+      "lastName2": "",
+      "country": "España",
+      "province": "Islas Baleares",
+      "city": "",
+      "postalCode": "",
+      "taxId": "98745612Z",
+      "birthDate": "1991-03-01",
+      "email": "elena.rivilla@travelance.club",
+      "phone": "123123456",
+      "agency": "AGENCIAS PENDIENTES DE DEFINIR",
+      "gender": "M"
+    }
+  },
+  "rewards": {
+    "agentPoints": 1500,
+    "rewardMinPoints": 1000,
+    "withholdingRatePct": 0.02
+  }
+}
