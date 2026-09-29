@@ -1950,8 +1950,11 @@
   }
 
   .avatar-inner .pi-user {
-    font-size: 1.9rem;
     color: var(--color-primary-club);
+  }
+
+  .pi-user, .pi-sign-out {
+    font-size: 1.2rem !important;
   }
 
   .header-text h1 {
