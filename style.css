@@ -9,7 +9,7 @@
     --color-footer-bg: #123832;
     --color-travelance: var(--color-primary-club);
     --grey-stp: #767676;
-    --color-text: #50535B;
+    --color-text:  #303030;
     --color-quaternary: #F7F7F8;
     --logo-url: '';
     --logo-text: 'TRAVELANCE';
@@ -878,7 +878,7 @@
   }
 
   .title-club {
-    color: var(--color-travelance);
+    color: var(--color-text);
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 1.6rem;
@@ -895,7 +895,16 @@
 
   .txt-balance span {
     font-weight: 600;
+    color: var(--color-text);
+  }
+
+  .txt-balance > span:first-child {
     color: var(--color-primary-club);
+  }
+
+  #agentPointsDisplay,
+  #bookingsPointsDisplay {
+    font-weight: 400;
   }
 
   .info-rewards {
@@ -1949,8 +1958,9 @@
     justify-content: center;
   }
 
-  .avatar-inner .pi-user {
-    color: var(--color-primary-club);
+  .avatar-inner > .pi-user {
+    font-size: 1.9rem !important;
+    color: var(--color-primary-club) !important;
   }
 
   .pi-user, .pi-sign-out {
@@ -2274,6 +2284,10 @@
   .catalog {
     padding-block: clamp(2.25rem, 5vw, 4rem);
     background: #f4f4f4;
+  }
+
+  .catalog-lead {
+    margin-top: 1.5rem;
   }
 
   .catalog .body-generic {

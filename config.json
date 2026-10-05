@@ -33,7 +33,7 @@
     }
   },
   "rewards": {
-    "agentPoints": 1500,
+    "agentPoints": 6000,
     "rewardMinPoints": 1000,
     "withholdingRatePct": 0.02
   }
